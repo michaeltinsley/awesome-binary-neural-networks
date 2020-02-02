@@ -2,23 +2,34 @@
 
 > A curated list of binary neural network research papers and software packages.
 
-A curated list of binary neural network research papers and software packages.
 
 ## Table of Contents
 
-- [Section Title](#section-title)
-- [Other Awesome Lists](#other-awesome-lists)
+- [Research Papers](#research-papers)
+- [Software and Repositories](#software-and-repositories)
+- [Organisations](#organisations)
+- [Relevant Awesome Lists](#relevant-awesome-lists)
 - [Contribute](#contribute)
 - [Credits](#credits)
 - [License](#license)
 
-## Section Title
+## Research Papers
 
-Section description (optional).
+This section contains research paper in chronological order.
 
 - [Item](https://github.com/Pawamoy/cookiecutter-awesome) – Item short description.
 
-## Other Awesome Lists
+
+## Software and Repositories
+
+- [Larq](https://github.com/larq/larq) - An open-source deep learning library based on the `tf.keras` interface.
+
+## Organisations
+
+- [Plumerai](https://www.plumerai.com/) - Plumerai is enabling devices like robots and drones to use deep learning locally and in real-time with binarised neural networks.
+
+
+## Relevant Awesome Lists
 
 * [awesome-awesome](https://github.com/emijrp/awesome-awesome)
 * [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)
