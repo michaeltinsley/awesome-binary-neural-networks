@@ -2,12 +2,13 @@
 
 [![Awesome][awesome-badge]][awesome-link]
 
-> A curated list of binary neural network research papers and software packages.
+> A curated list of binary, ternary (1.58-bit), and 2-bit neural network research papers, software packages, and resources.
 
 
 ## Table of Contents
 
 - [Research Papers](#research-papers)
+- [Surveys](#surveys)
 - [Software and Repositories](#software-and-repositories)
 - [Organisations](#organisations)
 - [Relevant Awesome Lists](#relevant-awesome-lists)
@@ -17,7 +18,7 @@
 
 ## Research Papers
 
-This section contains research paper in chronological order.
+This section contains research papers in chronological order, spanning from the early foundations of BNNs to the modern era of 1-bit and 1.58-bit Large Language Models.
 
 - [BinaryConnect: Training Deep Neural Networks with binary weights during propagations](https://arxiv.org/abs/1511.00363)
     - 2015
@@ -64,27 +65,51 @@ This section contains research paper in chronological order.
 - [MeliusNet: Can Binary Neural Networks Achieve MobileNet-level Accuracy?](https://arxiv.org/abs/2001.05936)
     - 2020
     - Joseph Bethge, Christian Bartz, Haojin Yang, Ying Chen, Christoph Meinel
+- [FracBNN: Accurate and FPGA-Efficient Binary Neural Networks with Fractional Activations](https://arxiv.org/abs/2012.11800)
+  - 2021
+  - Yichi Zhang, Junhao Pan, Xinheng Liu, Hongzheng Chen, Deming Chen, Zhiru Zhang
+- [Binary Neural Networks as a general-propose [sic] compute paradigm for on-device computer vision](https://arxiv.org/abs/2202.03716)
+  - 2022
+  - Haojin Yang, Martin Danelljan, et al.
+- [BitNet: Scaling 1-bit Transformers for Large Language Models](https://arxiv.org/abs/2310.11453)
+  - 2023
+  - Hongyu Wang, Shuming Ma, Li Dong, Shaohan Huang, et al. (Microsoft)
+- [The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/abs/2402.17764)
+  - 2024
+  - Shuming Ma, Hongyu Wang, Lingxiao Ma, Lei Wang, et al. (Microsoft)
+- [A&B BNN: Add&Bit-Operation-Only Hardware-Friendly Binary Neural Network](https://openaccess.thecvf.com/content/CVPR2024/html/Ma_AB_BNN_AddBit-Operation-Only_Hardware-Friendly_Binary_Neural_Network_CVPR_2024_paper.html)
+  - 2024
+  - Ruichen Ma, Guanchao Qiao, Yian Liu, Liwei Meng, Ning Ning, Yang Liu, Shaogang Hu
+- [BitNet b1.58 2B4T Technical Report](https://arxiv.org/abs/2504.12285)
+  - 2025
+  - Microsoft Research
+- [1 BIT IS ALL WE NEED: Binary Normalized Neural Networks](https://arxiv.org/abs/2509.07025)
+  - 2025
+  - Eduardo Lobo Lustoda Cabral, Paulo Pirozelli, Larissa Driemeier
 
+## Surveys
 
-
-
-
-
-
-
-
-
-
-
+- [Binary neural networks: A survey](https://www.semanticscholar.org/paper/Binary-Neural-Networks%3A-A-Survey-Qin-Gong/bc3706d600729f1b9007c91052258c7c22864f69)
+  - 2020
+  - Haotong Qin, Ruihao Gong, Xianglong Liu, Xiao Bai, Jingkuan Song, N. Sebe
+- [A Review of Recent Advances of Binary Neural Networks for Edge Computing](https://www.semanticscholar.org/paper/A-Review-of-Recent-Advances-of-Binary-Neural-for-Zhao-Ma/09ea3fbcc2d28b7dacffa86934307f0eeea525b2)
+  - 2020
+  - Wenyu Zhao, Teli Ma, Xuan Gong, Baochang Zhang, D. Doermann
 
 ## Software and Repositories
 
 - [Larq](https://github.com/larq/larq) - An open-source deep learning library based on the `tf.keras` interface.
+- [microsoft/BitNet](https://github.com/microsoft/BitNet) - Official inference framework (bitnet.cpp) for 1-bit LLMs and 1.58-bit models (e.g., BitNet b1.58).
+- [BitNet Model Card](https://huggingface.co/microsoft/bitnet-b1.58-2B-4T) - Model card for the BitNet b1.58 2B4T model.
+- [kevbuh/bitnet](https://github.com/kevbuh/bitnet) - A pure PyTorch implementation of Microsoft's BitNet b1.58 2B4T binarized LLaMA-style LLM.
+- [hpi-xnor/BMXNet-v2](https://github.com/hpi-xnor/BMXNet-v2) - An open-source binary neural network implementation based on MXNet.
+- [hpi-xnor/bitorch](https://github.com/hpi-xnor/bitorch) - An open-source implementation of Binary Neural Networks within PyTorch.
+- [Ruichen0424/AB-BNN](https://github.com/Ruichen0424/AB-BNN) - The official PyTorch implementation for the CVPR 2024 paper "A&B BNN".
 
 ## Organisations
 
 - [Plumerai](https://www.plumerai.com/) - Plumerai is enabling devices like robots and drones to use deep learning locally and in real-time with binarised neural networks.
-
+- [Microsoft Research](https://www.microsoft.com/en-us/research/) - Pioneers of the BitNet architecture, advancing the "Era of 1-bit and 1.58-bit LLMs" to democratize large language models.
 
 ## Relevant Awesome Lists
 
@@ -98,8 +123,6 @@ This section contains research paper in chronological order.
 Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
 
 ## Credits
-
-See [AUTHORS](AUTHORS.md)
 
 This project was initially created with [Cookiecutter][cookiecutter] and the custom [cookiecutter-awesome][cookiecutter-awesome] :cookie:
 
