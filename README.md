@@ -8,6 +8,7 @@
 ## Table of Contents
 
 - [Research Papers](#research-papers)
+- [Surveys](#surveys)
 - [Software and Repositories](#software-and-repositories)
 - [Organisations](#organisations)
 - [Relevant Awesome Lists](#relevant-awesome-lists)
@@ -67,7 +68,7 @@ This section contains research papers in chronological order, spanning from the 
 - [FracBNN: Accurate and FPGA-Efficient Binary Neural Networks with Fractional Activations](https://arxiv.org/abs/2012.11800)
   - 2021
   - Yichi Zhang, Junhao Pan, Xinheng Liu, Hongzheng Chen, Deming Chen, Zhiru Zhang
-- [Binary Neural Networks as a general-propose compute paradigm for on-device computer vision](https://arxiv.org/abs/2202.03716)
+- [Binary Neural Networks as a general-propose [sic] compute paradigm for on-device computer vision](https://arxiv.org/abs/2202.03716)
   - 2022
   - Haojin Yang, Martin Danelljan, et al.
 - [BitNet: Scaling 1-bit Transformers for Large Language Models](https://arxiv.org/abs/2310.11453)
@@ -86,10 +87,20 @@ This section contains research papers in chronological order, spanning from the 
   - 2025
   - Eduardo Lobo Lustoda Cabral, Paulo Pirozelli, Larissa Driemeier
 
+## Surveys
+
+- [Binary neural networks: A survey](https://www.semanticscholar.org/paper/Binary-Neural-Networks%3A-A-Survey-Qin-Gong/bc3706d600729f1b9007c91052258c7c22864f69)
+  - 2020
+  - Haotong Qin, Ruihao Gong, Xianglong Liu, Xiao Bai, Jingkuan Song, N. Sebe
+- [A Review of Recent Advances of Binary Neural Networks for Edge Computing](https://www.semanticscholar.org/paper/A-Review-of-Recent-Advances-of-Binary-Neural-for-Zhao-Ma/09ea3fbcc2d28b7dacffa86934307f0eeea525b2)
+  - 2020
+  - Wenyu Zhao, Teli Ma, Xuan Gong, Baochang Zhang, D. Doermann
+
 ## Software and Repositories
 
 - [Larq](https://github.com/larq/larq) - An open-source deep learning library based on the `tf.keras` interface.
 - [microsoft/BitNet](https://github.com/microsoft/BitNet) - Official inference framework (bitnet.cpp) for 1-bit LLMs and 1.58-bit models (e.g., BitNet b1.58).
+- [BitNet Model Card](https://huggingface.co/microsoft/bitnet-b1.58-2B-4T) - Model card for the BitNet b1.58 2B4T model.
 - [kevbuh/bitnet](https://github.com/kevbuh/bitnet) - A pure PyTorch implementation of Microsoft's BitNet b1.58 2B4T binarized LLaMA-style LLM.
 - [hpi-xnor/BMXNet-v2](https://github.com/hpi-xnor/BMXNet-v2) - An open-source binary neural network implementation based on MXNet.
 - [hpi-xnor/bitorch](https://github.com/hpi-xnor/bitorch) - An open-source implementation of Binary Neural Networks within PyTorch.
