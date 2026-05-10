@@ -1,0 +1,29 @@
+name: Link Check
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+    branches: [master, main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Awesomebot
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+
+      - name: Install awesome_bot
+        run: gem install awesome_bot
+
+      - name: Check Links
+        # Using the same flags as your old travis config: allow dupes and redirects
+        run: awesome_bot README.md --allow-dupe --allow-redirect
